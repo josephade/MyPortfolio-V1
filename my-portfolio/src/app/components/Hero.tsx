@@ -32,9 +32,9 @@ export default function Hero({}: Props) {
         width={100}
         height={100}
         alt="Profile Pic"
-        className=' relative w-100 h-100 rounded-full mx-auto object-cover'
+        className=' relative w-32 h-32 rounded-full mx-auto object-cover'
       />
-      <div className='z-20'>
+      <div className='z-20 relative'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
           Software Engineer
         </h2>
