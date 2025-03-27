@@ -44,14 +44,11 @@ export default function About({}: Props) {
           {' '} background
         </h4>
         <p className='text-base'>
-          Lorem ipsum odor amet, consectetuer adipiscing elit. 
-          Blandit metus nascetur cubilia morbi convallis. 
-          Erat lobortis a nunc ac mollis risus velit mi consequat. 
-          Quam donec laoreet fringilla nullam accumsan primis magnis cursus. 
-          Est ligula tempor elementum est mattis non torquent congue feugiat. 
-          Magnis iaculis montes elementum nisi fames fusce in venenatis sagittis.
-          Ullamcorper nostra viverra eget sed, est iaculis. 
-          Volutpat cras eros ante senectus nunc imperdiet tristique ligula.
+          I'm a software developer with four years of experience improving banking software systems and
+          making code more efficient. I specialize in Python, React, and JavaScript, and I have a strong interest
+          in machine learning. I love identifying problems and creating solutions through code. 
+          My passion lies in full-stack development and artificial intelligence, where I can combine
+          my analytical skills with a focus on creating better user experiences.
         </p>
       </div>
     </motion.div>

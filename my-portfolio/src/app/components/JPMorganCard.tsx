@@ -26,20 +26,20 @@ export default function ExperienceCard({}: Props) {
         viewport={{ once: true}} 
         className='w-32 h-32 rounded-full xl:w-[100px] xl:h-[100px]
         object-cover object-center'
-        src='/amazon.png'
+        src='/jp.png'
       />
       
       <div className='px-0 md:px-10'>
         <h4 className='text-4xl font-light'>Software Developer</h4>
-        <p className='font-bold text-2xl mt-1'>Ellucian</p>
+        <p className='font-bold text-2xl mt-1'>JP Morgan</p>
         <div className='flex space-x-2 my-2'>
           <img
             className='w-10 h-10 rounded-full'
-            src='/ts-logo.png'
+            src='/python.png'
           />
           <img
             className='w-10 h-10 rounded-full'
-            src='/ts-logo.png'
+            src='/Javascript.png'
           />  
           <img
             className='w-10 h-10 rounded-full'
@@ -47,17 +47,18 @@ export default function ExperienceCard({}: Props) {
           />
           <img
             className='w-10 h-10 rounded-full'
-            src='/ts-logo.png'
+            src='/mysql.png'
           />
         </div>
-        <p className='uppercase py-5 text-gray-300'>Starting work... - Ended..</p>
+        <p className='uppercase py-5 text-gray-300'>Jan 2022 - Aug 2022</p>
         
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
+          <li>Engineered a machine learning-based natural language processing system that was
+          deployed bank-wide, streamlining asset valuation processes for clients.</li>
+          <li>Collaborated with US teams to optimize the codebase architecture, implementing robust
+          solutions using JavaScript, Python, and SQL.</li>
+          <li>Refined existing software systems through code reviews and enhancements, ensuring
+          optimal performance and a seamless user experience.</li>
         </ul>
       </div>
     </article>

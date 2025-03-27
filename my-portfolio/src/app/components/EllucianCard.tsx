@@ -26,7 +26,7 @@ export default function ExperienceCard({}: Props) {
         viewport={{ once: true}} 
         className='w-32 h-32 rounded-full xl:w-[100px] xl:h-[100px]
         object-cover object-center'
-        src='/amazon.png'
+        src='/ellucian.png'
       />
       
       <div className='px-0 md:px-10'>
@@ -35,29 +35,26 @@ export default function ExperienceCard({}: Props) {
         <div className='flex space-x-2 my-2'>
           <img
             className='w-10 h-10 rounded-full'
-            src='/ts-logo.png'
+            src='/python.png'
           />
           <img
             className='w-10 h-10 rounded-full'
-            src='/ts-logo.png'
+            src='/react.png'
           />  
           <img
             className='w-10 h-10 rounded-full'
-            src='/ts-logo.png'
-          />
-          <img
-            className='w-10 h-10 rounded-full'
-            src='/ts-logo.png'
+            src='/node-js.png'
           />
         </div>
-        <p className='uppercase py-5 text-gray-300'>Starting work... - Ended..</p>
+        <p className='uppercase py-5 text-gray-300'>May 2021 - Aug 2021</p>
         
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
-          <li>Summary PointsSummary Points Summary PointsSummary Points</li>
+          <li>Developed responsive front-end features for a student portal using Node.js and React.js,
+          implementing comprehensive unit testing and modern development practices.</li>
+          <li>Participated in cross-functional development sprints, contributing to code reviews and
+          integrating feedback to improve portal functionality.</li>
+          <li>Maintained code documentation and testing coverage while continuously expanding my
+          skills through company learning resources.</li>
         </ul>
       </div>
     </article>

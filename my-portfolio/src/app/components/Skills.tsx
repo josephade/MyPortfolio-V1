@@ -5,6 +5,19 @@ import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Skill from './Skill';
+import Python from "./Python";
+import Firebase from "./Firebase";
+import Git from "./Git";
+import Java from "./Java";
+import MongoDB from "./MongoDB";
+import Node from "./Node";
+import ReactJS from "./React";
+import ReactNative from "./React-Native";
+import SQL from "./SQL";
+import Tailwind from "./Tailwind";
+import TypeScript from "./TypeScript";
+import HTML from "./HTML";
+import CSS from "./CSS";
 
 type Props = {}
 
@@ -25,20 +38,19 @@ function Skills({}: Props) {
       </h3>
 
       <div className='grid grid-cols-4 gap-5 mt-10 pt-24'>
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Python />
+        <Firebase />
+        <Git />
+        <Java />
+        <MongoDB />
+        <Node />
+        <ReactJS />
+        <ReactNative />
+        <SQL />
+        <Tailwind />
+        <TypeScript />
+        <HTML />
+        <CSS />
       </div>
     </motion.div>
   )
